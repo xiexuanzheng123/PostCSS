@@ -1,9 +1,12 @@
+
+
 .backColor {
-  background-color: lavender;
+  background-color: lightgray;
 }
 .title {
   composes: backColor;
   color: red;
+  width: 200px;
 }
 .h2 {
   display: flex;
@@ -16,3 +19,10 @@
 /* :global(.title) {
   color: green;
 } */
+:root {
+  --mainColor: red;
+}
+a {
+  color: var(--mainColor);
+  text-decoration: none;
+}

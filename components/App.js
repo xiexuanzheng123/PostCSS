@@ -1,5 +1,5 @@
 import React from 'react';
-import style from './color.css';
+import style from './App.css';
 
 class App extends React.Component {
     render() {
@@ -7,7 +7,7 @@ class App extends React.Component {
             <div>
                 <h1 className={style.title}>Hello World</h1>
                 <h2 className={style.h2}>Test</h2><br/>
-                <a href="#">the usage of :root</a>
+                <a href="#">the usage of :root</a><br/>
             </div>
         )
     }

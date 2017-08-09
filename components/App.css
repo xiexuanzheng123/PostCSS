@@ -1,3 +1,7 @@
 .title {
   color: red;
 }
+.h2 {
+  display: flex;
+  background: green;
+}

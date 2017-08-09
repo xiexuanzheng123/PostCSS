@@ -1,5 +1,6 @@
 import React from 'react';
 import style from './App.css';
+import calc from './calc.css';
 
 class App extends React.Component {
     render() {

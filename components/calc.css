@@ -1,0 +1,6 @@
+:root {
+    --fontSize: 0.1rem;
+}
+h1 {
+    font-size: calc(var(--fontSize) * 2);
+}

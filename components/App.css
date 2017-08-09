@@ -1,4 +1,8 @@
+.backColor {
+  background-color: lavender;
+}
 .title {
+  composes: backColor;
   color: red;
 }
 .h2 {
@@ -9,6 +13,6 @@
   text-align: center;
   display: inline-block;
 }
-:global(.title) {
+/* :global(.title) {
   color: green;
-}
+} */

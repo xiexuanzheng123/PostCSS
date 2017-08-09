@@ -3,5 +3,12 @@
 }
 .h2 {
   display: flex;
-  background: green;
+  background: lightblue;
+  width: 100px;
+  color: #fff;
+  text-align: center;
+  display: inline-block;
+}
+:global(.title) {
+  color: green;
 }

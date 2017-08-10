@@ -1,0 +1,17 @@
+@custom-selector :--button button, .button;
+@custom-selector :--enter :hover, :focus;
+
+:--button {
+    background: lightgreen;
+    // width: 70px;
+    // height: 30px;
+    margin: 10px;
+}
+:--button:--enter {
+    color: #fff;
+    font-size: 16px;
+    transform: rotate(350deg);
+}
+a {
+    display: inline-block;
+}

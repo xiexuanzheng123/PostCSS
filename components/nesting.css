@@ -1,0 +1,55 @@
+a, p {
+    color: red;
+
+    & span, & em {
+        color: green;
+        padding: 8px;
+    }
+}
+/*table.colortable td {
+    text-align: center;
+}
+table.colortable td.c {
+    text-transform: uppercase;
+}
+table.colortable td:first-child, table.colortable td:first-child+td {
+    border: 1px solid black;
+}
+table.colortable th {
+    text-align: center;
+    background: black;
+    color: white;
+}*/
+table.colortable {
+    & td {
+        text-align: center;
+        &.c {
+            text-transform: uppercase;
+        }
+        &:first-child, &:first-child+td {
+            border: 1px solid black;
+        }
+    }
+    & th {
+        text-align: center;
+        background: black;
+        color: white;
+    }
+}
+.foo {
+    color: blue;
+    & > .bar {
+        color: red;
+    }
+}
+.fooo {
+    color: blue;
+    &.barr {
+        color: red;
+    }
+}
+
+.foo1, .bar1 {
+    color: blue;
+    & + .baz, &.qux {color: red;}
+}

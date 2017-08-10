@@ -1,0 +1,9 @@
+:root {
+  --danger-theme: {
+    color: white;
+    background-color: red;
+  };
+}
+.danger {
+  @apply --danger-theme;
+}

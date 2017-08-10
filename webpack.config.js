@@ -52,7 +52,7 @@ module.exports = {
                         {
                             loader: 'postcss-loader',
                             options: {
-                                sourceMap: 'inline'
+                                sourceMap: true
                             }
                         }
                 ]

@@ -1,9 +1,9 @@
 import React from 'react';
-import style from './App.css';
-import calc from './calc.css';
-import apply from './apply.css';
-import media from './media-query-range.css';
-import selector from './selector.css';
+import style from '../css/App.css';
+import calc from '../css/calc.css';
+import apply from '../css/apply.css';
+import media from '../css/media-query-range.css';
+import selector from '../css/selector.css';
 
 class App extends React.Component {
     render() {

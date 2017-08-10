@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import nest from './nesting.css';
+import nest from '../css/nesting.css';
 
 class Nest extends Component {
     render() {
